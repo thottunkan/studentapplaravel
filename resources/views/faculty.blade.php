@@ -13,7 +13,32 @@
 </head>
 <body>
 <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="welcome.blade.php">Student-App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="/">Student</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="faculty">Faculty</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+            </nav>
+        <!-- navbar end -->
         <div class="row" style="width: 500px;margin: auto;margin-top: 100px;" >
+        
             <div class="col " style="border:.05px solid gray;border-radius: 5px;background-color:cornsilk;">
                 <form action="/">
                     <table class="table table-borderless">
