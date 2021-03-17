@@ -36,8 +36,8 @@
             </div>
             </nav>
         <!-- navbar end -->
-        <div class="row" style="width: 500px;margin: auto;margin-top: 100px;" >
-            <div class="col " style="border:.05px solid gray;border-radius: 5px;background-color:cornsilk;">
+        <div class="row img-fluid" style="width: 500px;margin: auto;margin-top: 100px;" >
+            <div class="col  " style="border:.05px solid gray;border-radius: 5px;background-color:cornsilk;">
                 <form action="/">
                     <table class="table table-borderless">
                         <thead>
